@@ -1,0 +1,23 @@
+name: Gerar imagens SeparaGo 2
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gerar carrosseis
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-color-emoji fonts-inter
+          fc-list | grep -i inter | head -3
+          python3 -m pip install -q pillow
+          FONTDIR=$(dirname $(fc-list | grep -i Inter-Black | head -1 | cut -d: -f1)) python3 gerar/gerar.py
+      - name: Salvar
+        run: |
+          git config user.name robo-separago
+          git config user.email robo@separago.local
+          git add midia fila
+          git diff --cached --quiet || git commit -m "Gera carrosseis"
+          git push
