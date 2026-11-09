@@ -1,0 +1,21 @@
+name: gerar3
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  g:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -y && sudo apt-get install -y fonts-noto-color-emoji fonts-inter
+      - run: pip install pillow
+      - run: |
+          export FONTDIR=$(dirname $(fc-list | grep -i 'Inter-Black' | head -1 | cut -d: -f1))
+          python3 gerar/gerar3.py
+      - run: |
+          git config user.name robo; git config user.email robo@x
+          git pull --rebase || true
+          git add midia fila
+          git commit -m "gerar3" || true
+          git push
