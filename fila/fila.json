@@ -1532,7 +1532,9 @@
       "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/x07/5.jpg",
       "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/x07/6.jpg"
     ],
-    "status": "pendente"
+    "status": "postado",
+    "postado_em": "2026-11-09T17:42:10.386349-03:00",
+    "post_id": "18004505265040520"
   },
   {
     "id": "x08-cliente-vale",
