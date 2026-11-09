@@ -1460,7 +1460,9 @@
       "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/x03/5.jpg",
       "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/x03/6.jpg"
     ],
-    "status": "pendente"
+    "status": "postado",
+    "postado_em": "2026-11-09T17:34:06.917367-03:00",
+    "post_id": "18096070208163403"
   },
   {
     "id": "x04-erros-delivery",
