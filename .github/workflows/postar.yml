@@ -1,0 +1,40 @@
+name: Postar no Instagram do SeparaGo
+
+on:
+  schedule:
+    # horários em UTC (Brasília = UTC-3). Cada horário tem um disparo principal e uma garantia 20 min depois.
+    - cron: "0 15 * * *"   # 12:00 Brasília (principal)
+    - cron: "20 15 * * *"  # 12:20 Brasília (garantia)
+    - cron: "0 22 * * *"   # 19:00 Brasília (principal)
+    - cron: "20 22 * * *"  # 19:20 Brasília (garantia)
+  workflow_dispatch:       # permite rodar na mão pelo botão "Run workflow"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: postar-instagram
+  cancel-in-progress: false
+
+jobs:
+  postar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Define o horário atendido
+        run: |
+          H=$(date -u +%H)
+          if [ "$H" = "15" ]; then echo "SLOT=12:00" >> $GITHUB_ENV; fi
+          if [ "$H" = "22" ]; then echo "SLOT=19:00" >> $GITHUB_ENV; fi
+      - name: Posta o próximo item da fila
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: "17841473063846423"
+        run: python3 scripts/postar.py
+      - name: Salva o estado da fila
+        if: always()
+        run: |
+          git config user.name "robo-separago"
+          git config user.email "robo@users.noreply.github.com"
+          git add fila/fila.json
+          git diff --cached --quiet || (git commit -m "fila: atualiza status" && git push)
