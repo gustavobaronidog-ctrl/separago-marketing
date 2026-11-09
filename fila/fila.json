@@ -1478,7 +1478,9 @@
       "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/x04/5.jpg",
       "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/x04/6.jpg"
     ],
-    "status": "pendente"
+    "status": "postado",
+    "postado_em": "2026-11-09T17:36:57.528942-03:00",
+    "post_id": "18001355940031308"
   },
   {
     "id": "x05-cliente-sumiu",
