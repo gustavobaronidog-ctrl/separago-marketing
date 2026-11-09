@@ -1,0 +1,31 @@
+name: extra-hoje
+on: workflow_dispatch
+permissions:
+  contents: write
+concurrency:
+  group: postar-instagram
+  cancel-in-progress: false
+jobs:
+  e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -y && sudo apt-get install -y fonts-noto-color-emoji fonts-inter
+      - run: pip install pillow
+      - run: |
+          export FONTDIR=$(dirname $(fc-list | grep -i 'Inter-Black' | head -1 | cut -d: -f1))
+          python3 gerar/gerar4.py
+          git config user.name robo-separago; git config user.email robo@users.noreply.github.com
+          git add midia fila; git commit -m "extras de hoje"; git push
+          sleep 20
+      - env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: "17841473063846423"
+        run: |
+          for i in 1 2 3 4 5 6 7 8 9 10; do
+            python3 scripts/postar.py || echo "falhou $i"
+            git add fila/fila.json
+            git diff --cached --quiet || (git commit -m "fila: atualiza status" && git pull --rebase && git push)
+            sleep 25
+          done
