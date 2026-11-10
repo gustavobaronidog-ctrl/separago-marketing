@@ -49,7 +49,9 @@
       "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c03/5.jpg",
       "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c03/6.jpg"
     ],
-    "status": "pendente"
+    "status": "postado",
+    "postado_em": "2026-11-10T00:53:31.379568-03:00",
+    "post_id": "18115701811845571"
   },
   {
     "id": "r-c03-estoque-parado",
