@@ -78,7 +78,8 @@
       "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c04/5.jpg",
       "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c04/6.jpg"
     ],
-    "status": "pendente"
+    "status": "pendente",
+    "ultimo_erro": "HTTP Error 403: Forbidden"
   },
   {
     "id": "r-c04-funcionario-erra",
