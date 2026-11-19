@@ -1,0 +1,13 @@
+name: Teste de alerta (falha de proposito)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Falhar de proposito para testar o e-mail
+        run: |
+          echo "::error title=TESTE::Isto e um teste do alerta do SeparaGo. Pode ignorar este e-mail."
+          exit 1
