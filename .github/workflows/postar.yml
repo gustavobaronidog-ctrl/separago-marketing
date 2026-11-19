@@ -2,6 +2,41 @@ name: Postar no Instagram do SeparaGo
 
 on:
   schedule:
+    # roda a cada 30 min; o robô decide se tem post vencido (horários de Brasília dentro da fila)
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: postar-instagram
+  cancel-in-progress: false
+
+jobs:
+  postar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Posta o próximo item vencido
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: "17841473063846423"
+        run: python3 scripts/postar.py
+      - name: Salva o estado da fila
+        if: always()
+        run: |
+          git config user.name "robo-separago"
+          git config user.email "robo@users.noreply.github.com"
+          git add fila/
+          git diff --cached --quiet && exit 0
+          git commit -m "fila: atualiza status"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
+name: Postar no Instagram do SeparaGo
+
+on:
+  schedule:
     # horários em UTC (Brasília = UTC-3). Cada horário tem um disparo principal e uma garantia 20 min depois.
     - cron: "0 15 * * *"   # 12:00 Brasília (principal)
     - cron: "20 15 * * *"  # 12:20 Brasília (garantia)
