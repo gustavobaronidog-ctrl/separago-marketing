@@ -1,0 +1,23 @@
+name: replanejar
+on: workflow_dispatch
+permissions:
+  contents: write
+concurrency:
+  group: postar-instagram
+  cancel-in-progress: false
+jobs:
+  r:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -y && sudo apt-get install -y fonts-noto-color-emoji fonts-inter ffmpeg
+      - run: pip install pillow
+      - run: |
+          export FONTDIR=$(dirname $(fc-list | grep -i 'Inter-Black' | head -1 | cut -d: -f1))
+          python3 gerar/replanejar.py
+      - run: |
+          git config user.name robo-separago; git config user.email robo@users.noreply.github.com
+          git add midia fila
+          git commit -m "replaneja fila: 3 carrosseis + 3 reels por dia ate 03/01"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
