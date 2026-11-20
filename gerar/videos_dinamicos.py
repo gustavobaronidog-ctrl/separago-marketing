@@ -64,6 +64,14 @@ VIDEOS = {
   ], cta="No SeparaGo o 'sem cebola' vai junto do lanche até a cozinha, e a comanda sai impressa."),
 }
 
+try:
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from lote2 import NOVOS
+    for _k, _v in NOVOS.items():
+        FALAS[_k] = _v.pop('falas'); VIDEOS[_k] = _v
+except ImportError:
+    pass
+
 # ---------- emoji crisp (renderizado pelo Chrome, fundo transparente) ----------
 def emoji_png(e):
     p = f"{T}/emo/{'-'.join(f'{ord(c):x}' for c in e)}.png"
