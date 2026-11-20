@@ -11,7 +11,9 @@ Repositório: https://github.com/gustavobaronidog-ctrl/separago-marketing
 ## Como o robô trabalha
 O **Maestro** roda a cada 10 minutos (minutos 7, 17, 27, 37, 47, 57, que o GitHub atrasa menos). Ele olha o Instagram, vê quantos carrosséis e Reels já saíram hoje, compara com os horários da fila (carrosséis 08:30/12:30/18:30, Reels 10:30/15:00/20:30) e publica só o que faltar, no máximo 1 carrossel e 1 Reel por rodada, até 22h. Se o GitHub atrasar ou pular rodadas, a próxima corrige sozinha. Se não conseguir contar os posts, não publica (melhor atrasar que duplicar). Pausa 6 h se o Instagram bloquear. O workflow antigo "Postar" ficou só como botão manual de reserva.
 
-**Feed organizado:** cada dia tem 3 carrosséis + os 3 Reels deles, todos do mesmo estilo (foto de fundo ou branco), alternando dia a dia. Para reorganizar de novo depois de criar conteúdo: Actions não tem botão para isso, peça ao Claude ("reorganizar a fila do SeparaGo").
+**Vídeos dinâmicos** (tipo `video` na fila, 14:00, com a voz Puck): só o Claude cria; o aviso de estoque baixo aparece como alerta amarelo no Vigia.
+
+**Feed organizado:** cada dia tem 3 carrosséis do mesmo estilo (foto de fundo ou branco, alternando dia a dia) e 3 Reels de carrossel do estilo oposto; o Reel de um carrossel nunca sai a menos de 7 dias do próprio carrossel, para o feed não mostrar dois posts iguais perto. Para reorganizar de novo depois de criar conteúdo: Actions não tem botão para isso, peça ao Claude ("reorganizar a fila do SeparaGo").
 
 ## Chegou e-mail "Run failed". O que fazer
 O e-mail já traz o problema e a solução em duas linhas: **SEM O CLAUDE** e **COM O CLAUDE**. Resumo:

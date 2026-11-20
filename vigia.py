@@ -75,6 +75,12 @@ if pend:
 else:
     prob("fila do SeparaGo acabou, nada sera postado", SEM_ESTOQUE, COM_ESTOQUE)
 
+vids = [i for i in pend if i.get("tipo") == "video"]
+if len(vids) < 2:
+    avisos.append(f"estoque de videos dinamicos do SeparaGo: {len(vids)} na fila. Peca ao Claude: criar mais videos dinamicos do SeparaGo.")
+else:
+    print(f"videos dinamicos na fila: {len(vids)}")
+
 def existe(url):
     try:
         req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "vigia-github"})

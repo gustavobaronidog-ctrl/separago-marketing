@@ -53,10 +53,14 @@ def main():
         print("Nao consegui contar os posts de hoje no Instagram; nao publico nada nesta rodada:",
               str(e).replace(P.TOKEN, "***")[:200], file=sys.stderr)
         return 0
+    # a API conta todo Reel junto: separa os videos dinamicos (tipo "video") dos Reels de carrossel
+    videos_hoje = sum(1 for i in fila if i["tipo"] == "video" and i.get("status") == "postado"
+                      and (i.get("postado_em") or "")[:10] == hoje)
+    ja = {"carrossel": ja["carrossel"], "reel": max(0, ja["reel"] - videos_hoje), "video": videos_hoje}
     print(f"{hoje} {agora:%H:%M} (Brasilia) - ja no ar hoje: {ja}", flush=True)
 
     mudou = False
-    for tipo in ("carrossel", "reel"):
+    for tipo in ("carrossel", "video", "reel"):
         devidos = sum(1 for i in fila if i["tipo"] == tipo and i["data"] == hoje
                       and i.get("hora", "00:00") <= f"{agora:%H:%M}")
         falta = devidos - ja[tipo]

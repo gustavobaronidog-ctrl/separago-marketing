@@ -45,7 +45,7 @@ def esperar_pronto(container):
 
 def postar(item):
     legenda = item["legenda"]
-    if item["tipo"] == "reel":
+    if item["tipo"] in ("reel", "video"):
         c = chamar("POST", f"{IG_ID}/media", {"media_type": "REELS", "video_url": item["video_url"],
                                              "caption": legenda, "share_to_feed": "true"})["id"]
     else:
