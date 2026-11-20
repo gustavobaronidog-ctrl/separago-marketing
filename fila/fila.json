@@ -274,7 +274,9 @@
   "tipo": "video",
   "legenda": "Áudio de 3 minutos com a lista de compras vira pedido errado. Peça a lista escrita, devolva o resumo com o total e avise o que está em falta.\n\nNo SeparaGo o cliente monta o pedido sozinho e ele chega organizado para você. Link na bio para ver como funciona.\n\n@separa.go",
   "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/m04-audio-lista.mp4",
-  "status": "pendente"
+  "status": "postado",
+  "post_id": "18144399103631535",
+  "postado_em": "2026-11-20T13:45:37.592770-03:00"
  },
  {
   "id": "v02-encomenda",
