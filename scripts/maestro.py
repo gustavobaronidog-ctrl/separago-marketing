@@ -6,7 +6,7 @@ esta no Instagram (conta os posts de hoje pela API) e publica o que faltar:
 no maximo 1 carrossel e 1 Reel por rodada. Se o GitHub atrasar ou pular rodadas,
 a proxima corrige sozinha. Nao publica depois das 22h.
 Em caso de duvida (API nao respondeu), NAO publica: melhor atrasar do que duplicar."""
-import os, sys, time
+import os, sys, time, subprocess
 from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -15,6 +15,35 @@ import postar as P
 BRT = timezone(timedelta(hours=-3))
 LIMITE_MIN = 22 * 60
 MAX_TENTATIVAS = 5
+
+
+CI = os.environ.get("GITHUB_ACTIONS") == "true"
+
+
+def git(*a):
+    return subprocess.run(["git", *a], capture_output=True, text=True)
+
+
+def puxar():
+    """Pega a fila mais nova do repositorio (alguem pode ter mexido nela)."""
+    if CI:
+        git("pull", "--rebase", "--autostash", "-q")
+
+
+def empurrar():
+    """Grava o estado no GitHub NA HORA, para um post nunca se repetir se o job cair depois."""
+    if not CI:
+        return
+    git("config", "user.name", "robo-separago"); git("config", "user.email", "robo@users.noreply.github.com")
+    git("add", "fila/")
+    if git("diff", "--cached", "--quiet").returncode == 0:
+        return
+    git("commit", "-q", "-m", "maestro: atualiza fila")
+    for _ in range(4):
+        git("pull", "--rebase", "--autostash", "-q")
+        if git("push", "-q").returncode == 0:
+            return
+        time.sleep(5)
 
 
 def agora_brt():
@@ -91,6 +120,7 @@ def main():
         mudou = True
         P.salvar(P.FILA, fila)       # grava ja, para nao perder o estado se algo cair depois
         P.salvar(P.ESTADO, estado)
+        empurrar()
         if estado.get("pausa_ate"):
             break
         time.sleep(20)
@@ -98,5 +128,28 @@ def main():
     return 0
 
 
+def laco(minutos, passo=300):
+    """Fica de plantao por `minutos`: confere a cada `passo` segundos e publica o que atrasou.
+    Assim um agendamento (cron) que o GitHub pule ou atrase nao deixa nenhum post de fora.
+    Ao fim, o proprio Maestro dispara a proxima rodada (cadeia sem depender do cron)."""
+    fim = time.time() + minutos * 60
+    while True:
+        puxar()
+        try:
+            main()
+        except Exception as e:
+            print("Erro na conferencia (segue no proximo ciclo):", str(e).replace(P.TOKEN, "***")[:200], file=sys.stderr)
+        if time.time() + passo >= fim:
+            break
+        time.sleep(passo)
+    h = agora_brt()
+    if CI and 7 <= h.hour < 22:
+        r = subprocess.run(["gh", "workflow", "run", "maestro.yml", "--ref", "main", "-f", "minutos=50"],
+                           capture_output=True, text=True)
+        print("Proxima rodada disparada." if r.returncode == 0 else f"Nao consegui disparar a proxima rodada (o agendamento cobre): {r.stderr[:200]}")
+    return 0
+
+
 if __name__ == "__main__":
-    sys.exit(main())
+    minutos = float(os.environ.get("MAESTRO_MINUTOS", "0") or 0)
+    sys.exit(laco(minutos) if minutos > 0 else main())
