@@ -285,7 +285,9 @@
   "tipo": "video",
   "legenda": "Antes de aceitar uma encomenda de salgado ou doce, confirme 4 coisas: quantidade e sabor, dia e hora, sinal no Pix e tudo anotado num lugar só.\n\nNo SeparaGo o cliente escolhe sabor e quantidade sozinho e o pedido chega organizado para você. Link na bio para ver.\n\n@separa.go",
   "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/v02-encomenda.mp4",
-  "status": "pendente"
+  "status": "postado",
+  "post_id": "18054952715818972",
+  "postado_em": "2026-11-20T14:01:45.272220-03:00"
  },
  {
   "id": "r-n13-desconto-resgatado",
