@@ -268,6 +268,15 @@
   "postado_em": "2026-11-20T09:20:33.090816-03:00"
  },
  {
+  "id": "v02-encomenda",
+  "data": "2026-11-20",
+  "hora": "14:00",
+  "tipo": "video",
+  "legenda": "Antes de aceitar uma encomenda de salgado ou doce, confirme 4 coisas: quantidade e sabor, dia e hora, sinal no Pix e tudo anotado num lugar só.\n\nNo SeparaGo o cliente escolhe sabor e quantidade sozinho e o pedido chega organizado para você. Link na bio para ver.\n\n@separa.go",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/v02-encomenda.mp4",
+  "status": "pendente"
+ },
+ {
   "id": "r-n13-desconto-resgatado",
   "data": "2026-11-20",
   "hora": "15:00",
@@ -290,6 +299,15 @@
    "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n06/5.jpg",
    "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n06/6.jpg"
   ],
+  "status": "pendente"
+ },
+ {
+  "id": "v03-correria",
+  "data": "2026-11-20",
+  "hora": "19:30",
+  "tipo": "video",
+  "legenda": "3 jeitos de errar menos pedido na correria: observação grudada no item, comanda impressa para a cozinha e conferência antes de embalar.\n\nNo SeparaGo o 'sem cebola' vai junto do lanche até a cozinha. Link na bio para ver.\n\n@separa.go",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/v03-correria.mp4",
   "status": "pendente"
  },
  {
@@ -340,15 +358,6 @@
    "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n04/5.jpg",
    "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n04/6.jpg"
   ],
-  "status": "pendente"
- },
- {
-  "id": "v02-encomenda",
-  "data": "2026-11-21",
-  "hora": "14:00",
-  "tipo": "video",
-  "legenda": "Antes de aceitar uma encomenda de salgado ou doce, confirme 4 coisas: quantidade e sabor, dia e hora, sinal no Pix e tudo anotado num lugar só.\n\nNo SeparaGo o cliente escolhe sabor e quantidade sozinho e o pedido chega organizado para você. Link na bio para ver.\n\n@separa.go",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/v02-encomenda.mp4",
   "status": "pendente"
  },
  {
@@ -424,15 +433,6 @@
    "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c12/5.jpg",
    "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c12/6.jpg"
   ],
-  "status": "pendente"
- },
- {
-  "id": "v03-correria",
-  "data": "2026-11-22",
-  "hora": "14:00",
-  "tipo": "video",
-  "legenda": "3 jeitos de errar menos pedido na correria: observação grudada no item, comanda impressa para a cozinha e conferência antes de embalar.\n\nNo SeparaGo o 'sem cebola' vai junto do lanche até a cozinha. Link na bio para ver.\n\n@separa.go",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/v03-correria.mp4",
   "status": "pendente"
  },
  {
