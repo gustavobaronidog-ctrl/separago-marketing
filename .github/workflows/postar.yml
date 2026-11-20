@@ -1,9 +1,6 @@
-name: Postar no Instagram do SeparaGo
+name: Postar no Instagram do SeparaGo (manual, reserva; quem posta sozinho e o Maestro)
 
 on:
-  schedule:
-    # roda a cada 30 min; o robô decide se tem post vencido (horários de Brasília dentro da fila)
-    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 permissions:

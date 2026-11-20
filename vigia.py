@@ -6,7 +6,7 @@ import json, os, sys, urllib.request, datetime
 problemas, avisos = [], []
 
 REPO = "https://github.com/gustavobaronidog-ctrl/separago-marketing"
-ACTIONS = REPO + "/actions/workflows/postar.yml"
+ACTIONS = REPO + "/actions/workflows/maestro.yml"
 
 def prob(msg, sem, com):
     """Registra problema com a solucao: o que o Gustavo faz sozinho e o que o Claude faz."""
@@ -60,7 +60,7 @@ atrasados = [i for i in pend if quando(i) + datetime.timedelta(minutes=90) < ago
 if atrasados and not pausado:
     ids = ", ".join(str(i.get("id")) for i in atrasados[:6])
     prob(f"{len(atrasados)} post(s) atrasado(s) ha mais de 90 min: {ids}",
-         f"abra {ACTIONS} , clique no botao 'Run workflow' (a direita) e depois no botao verde 'Run workflow'. Clique so 1 vez: o robo posta 1 item por vez. "
+         f"abra {ACTIONS} , clique no botao 'Run workflow' (a direita) e depois no botao verde 'Run workflow'. Clique so 1 vez: o Maestro publica o que estiver atrasado (1 carrossel e 1 Reel por vez). "
          "Se aparecer X vermelho, leia o erro na execucao.",
          "abra o Claude e escreva: o robo do SeparaGo atrasou os posts, destrave.")
 
@@ -87,6 +87,8 @@ for it in pend[:8]:
     arqs = it.get("imagens") or []
     if isinstance(arqs, str):
         arqs = [arqs]
+    if it.get("video_url"):
+        arqs = list(arqs) + [it["video_url"]]
     for u in arqs:
         if isinstance(u, str) and u.startswith("http") and not existe(u):
             prob(f"arquivo nao abre (item {it.get('id')}): {u}",

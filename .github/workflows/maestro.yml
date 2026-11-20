@@ -1,0 +1,38 @@
+name: Maestro dos posts (SeparaGo)
+
+on:
+  schedule:
+    # A cada 10 min, em minutos fora de :00 e :30 (os que o GitHub mais atrasa).
+    # Publica o que ja devia ter ido ao ar hoje e ainda nao foi.
+    - cron: "7,17,27,37,47,57 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: postar-instagram
+  cancel-in-progress: false
+
+jobs:
+  maestro:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publicar o que estiver atrasado
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: "17841473063846423"
+        run: python3 scripts/maestro.py
+
+      - name: Guardar o avanco da fila
+        if: always()
+        run: |
+          git config user.name "robo-separago"
+          git config user.email "robo@users.noreply.github.com"
+          git add fila/
+          git diff --cached --quiet && exit 0
+          git commit -m "maestro: atualiza fila"
+          for i in 1 2 3 4; do git pull --rebase && git push && break; sleep 5; done
