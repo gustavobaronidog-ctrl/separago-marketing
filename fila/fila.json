@@ -268,6 +268,15 @@
   "postado_em": "2026-11-20T09:20:33.090816-03:00"
  },
  {
+  "id": "m04-audio-lista",
+  "data": "2026-11-20",
+  "hora": "13:41",
+  "tipo": "video",
+  "legenda": "Áudio de 3 minutos com a lista de compras vira pedido errado. Peça a lista escrita, devolva o resumo com o total e avise o que está em falta.\n\nNo SeparaGo o cliente monta o pedido sozinho e ele chega organizado para você. Link na bio para ver como funciona.\n\n@separa.go",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/m04-audio-lista.mp4",
+  "status": "pendente"
+ },
+ {
   "id": "v02-encomenda",
   "data": "2026-11-20",
   "hora": "14:00",
@@ -361,12 +370,12 @@
   "status": "pendente"
  },
  {
-  "id": "m04-audio-lista",
+  "id": "c04-sinal",
   "data": "2026-11-21",
   "hora": "14:00",
   "tipo": "video",
-  "legenda": "Áudio de 3 minutos com a lista de compras vira pedido errado. Peça a lista escrita, devolva o resumo com o total e avise o que está em falta.\n\nNo SeparaGo o cliente monta o pedido sozinho e ele chega organizado para você. Link na bio para ver como funciona.\n\n@separa.go",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/m04-audio-lista.mp4",
+  "legenda": "Encomenda sem sinal é só promessa. Peça sinal no Pix antes de começar, avise que ele garante a data e anote o valor que já entrou.\n\nNo SeparaGo o pedido chega organizado, com quantidade e data no mesmo lugar. Link na bio para ver como funciona.\n\n@separa.go",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/classico/c04-sinal.mp4",
   "status": "pendente"
  },
  {
@@ -395,12 +404,12 @@
   "status": "pendente"
  },
  {
-  "id": "c04-sinal",
+  "id": "l04-adicional",
   "data": "2026-11-21",
   "hora": "19:30",
   "tipo": "video",
-  "legenda": "Encomenda sem sinal é só promessa. Peça sinal no Pix antes de começar, avise que ele garante a data e anote o valor que já entrou.\n\nNo SeparaGo o pedido chega organizado, com quantidade e data no mesmo lugar. Link na bio para ver como funciona.\n\n@separa.go",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/c04-sinal.mp4",
+  "legenda": "Adicional esquecido na conta vira lanche de graça no fim do mês. Escreva o adicional junto do item, cobre no mesmo valor e confira a comanda antes de fechar.\n\nNo SeparaGo o adicional vai junto do lanche até a cozinha. Link na bio para ver como funciona.\n\n@separa.go",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/classico/l04-adicional.mp4",
   "status": "pendente"
  },
  {
@@ -454,12 +463,12 @@
   "status": "pendente"
  },
  {
-  "id": "l04-adicional",
+  "id": "m05-item-falta",
   "data": "2026-11-22",
   "hora": "14:00",
   "tipo": "video",
-  "legenda": "Adicional esquecido na conta vira lanche de graça no fim do mês. Escreva o adicional junto do item, cobre no mesmo valor e confira a comanda antes de fechar.\n\nNo SeparaGo o adicional vai junto do lanche até a cozinha. Link na bio para ver como funciona.\n\n@separa.go",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/l04-adicional.mp4",
+  "legenda": "Produto que acabou na hora de separar o pedido gera fila e reclamação. Confira o estoque antes, ofereça substituto com preço e só feche com o sim do cliente.\n\nNo SeparaGo o cliente já pede sabendo o que tem. Link na bio para ver como funciona.\n\n@separa.go",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/classico/m05-item-falta.mp4",
   "status": "pendente"
  },
  {
@@ -488,12 +497,12 @@
   "status": "pendente"
  },
  {
-  "id": "m05-item-falta",
+  "id": "c05-preco-bolo",
   "data": "2026-11-22",
   "hora": "19:30",
   "tipo": "video",
-  "legenda": "Produto que acabou na hora de separar o pedido gera fila e reclamação. Confira o estoque antes, ofereça substituto com preço e só feche com o sim do cliente.\n\nNo SeparaGo o cliente já pede sabendo o que tem. Link na bio para ver como funciona.\n\n@separa.go",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/m05-item-falta.mp4",
+  "legenda": "Preço de bolo no chute faz perder dinheiro. Some o custo dos ingredientes, coloque o seu tempo de trabalho e deixe margem para o que sobra e estraga.\n\nNo SeparaGo o cliente já vê o valor e pede sem negociar tudo no zap. Link na bio para ver como funciona.\n\n@separa.go",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/c05-preco-bolo.mp4",
   "status": "pendente"
  },
  {
@@ -547,12 +556,12 @@
   "status": "pendente"
  },
  {
-  "id": "c05-preco-bolo",
+  "id": "l05-taxa-entrega",
   "data": "2026-11-23",
   "hora": "14:00",
   "tipo": "video",
-  "legenda": "Preço de bolo no chute faz perder dinheiro. Some o custo dos ingredientes, coloque o seu tempo de trabalho e deixe margem para o que sobra e estraga.\n\nNo SeparaGo o cliente já vê o valor e pede sem negociar tudo no zap. Link na bio para ver como funciona.\n\n@separa.go",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/c05-preco-bolo.mp4",
+  "legenda": "Taxa de entrega explicada um por um no WhatsApp faz o cliente desistir. Defina a taxa por região, mostre antes de fechar e some no total.\n\nNo SeparaGo o cliente já vê o total com a entrega. Link na bio para ver como funciona.\n\n@separa.go",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/l05-taxa-entrega.mp4",
   "status": "pendente"
  },
  {
@@ -581,12 +590,12 @@
   "status": "pendente"
  },
  {
-  "id": "l05-taxa-entrega",
+  "id": "m06-sexta-18h",
   "data": "2026-11-23",
   "hora": "19:30",
   "tipo": "video",
-  "legenda": "Taxa de entrega explicada um por um no WhatsApp faz o cliente desistir. Defina a taxa por região, mostre antes de fechar e some no total.\n\nNo SeparaGo o cliente já vê o total com a entrega. Link na bio para ver como funciona.\n\n@separa.go",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/l05-taxa-entrega.mp4",
+  "legenda": "Sexta às 18h com fila no balcão e celular apitando: horário para retirada, pedido pronto antes do cliente chegar e um lugar só para receber pedidos.\n\nNo SeparaGo os pedidos entram num lugar só. Link na bio para ver como funciona.\n\n@separa.go",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/m06-sexta-18h.mp4",
   "status": "pendente"
  },
  {
@@ -640,12 +649,12 @@
   "status": "pendente"
  },
  {
-  "id": "m06-sexta-18h",
+  "id": "c06-meio-a-meio",
   "data": "2026-11-24",
   "hora": "14:00",
   "tipo": "video",
-  "legenda": "Sexta às 18h com fila no balcão e celular apitando: horário para retirada, pedido pronto antes do cliente chegar e um lugar só para receber pedidos.\n\nNo SeparaGo os pedidos entram num lugar só. Link na bio para ver como funciona.\n\n@separa.go",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/m06-sexta-18h.mp4",
+  "legenda": "Encomenda de salgado com meio a meio vira confusão no WhatsApp. Repita o pedido em lista, peça o ok do cliente e guarde a lista junto da encomenda.\n\nNo SeparaGo o cliente escolhe sabor e quantidade, e a lista já vem pronta para você. Link na bio para ver como funciona.\n\n@separa.go",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/classico/c06-meio-a-meio.mp4",
   "status": "pendente"
  },
  {
@@ -674,12 +683,12 @@
   "status": "pendente"
  },
  {
-  "id": "c06-meio-a-meio",
+  "id": "l06-endereco",
   "data": "2026-11-24",
   "hora": "19:30",
   "tipo": "video",
-  "legenda": "Encomenda de salgado com meio a meio vira confusão no WhatsApp. Repita o pedido em lista, peça o ok do cliente e guarde a lista junto da encomenda.\n\nNo SeparaGo o cliente escolhe sabor e quantidade, e a lista já vem pronta para você. Link na bio para ver como funciona.\n\n@separa.go",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/c06-meio-a-meio.mp4",
+  "legenda": "Endereço errado faz o motoboy rodar e o lanche esfriar. Peça rua, número e referência, confirme com o cliente e peça um telefone que ele atenda.\n\nNo SeparaGo o endereço vai junto do pedido, sem se perder na conversa. Link na bio para ver como funciona.\n\n@separa.go",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/classico/l06-endereco.mp4",
   "status": "pendente"
  },
  {
@@ -733,12 +742,12 @@
   "status": "pendente"
  },
  {
-  "id": "l06-endereco",
+  "id": "m07-preco-zap",
   "data": "2026-11-25",
   "hora": "14:00",
   "tipo": "video",
-  "legenda": "Endereço errado faz o motoboy rodar e o lanche esfriar. Peça rua, número e referência, confirme com o cliente e peça um telefone que ele atenda.\n\nNo SeparaGo o endereço vai junto do pedido, sem se perder na conversa. Link na bio para ver como funciona.\n\n@separa.go",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/l06-endereco.mp4",
+  "legenda": "Responder o preço de cada item no WhatsApp rouba meia hora do dia. Tenha uma lista atualizada, mande link ou foto e atualize quando o preço mudar.\n\nNo SeparaGo o cliente vê os itens e faz o pedido sem precisar perguntar o preço. Link na bio para ver como funciona.\n\n@separa.go",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/classico/m07-preco-zap.mp4",
   "status": "pendente"
  },
  {
@@ -767,12 +776,12 @@
   "status": "pendente"
  },
  {
-  "id": "m07-preco-zap",
+  "id": "c07-limite-dia",
   "data": "2026-11-25",
   "hora": "19:30",
   "tipo": "video",
-  "legenda": "Responder o preço de cada item no WhatsApp rouba meia hora do dia. Tenha uma lista atualizada, mande link ou foto e atualize quando o preço mudar.\n\nNo SeparaGo o cliente vê os itens e faz o pedido sem precisar perguntar o preço. Link na bio para ver como funciona.\n\n@separa.go",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/m07-preco-zap.mp4",
+  "legenda": "Aceitar mais encomenda do que o forno aguenta gera atraso e cliente chateado. Defina um limite por dia, feche a agenda e ofereça outra data.\n\nNo SeparaGo o pedido chega organizado, para você enxergar o dia antes de aceitar mais. Link na bio para ver como funciona.\n\n@separa.go",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/c07-limite-dia.mp4",
   "status": "pendente"
  },
  {
@@ -826,12 +835,12 @@
   "status": "pendente"
  },
  {
-  "id": "c07-limite-dia",
+  "id": "l07-cardapio-zap",
   "data": "2026-11-26",
   "hora": "14:00",
   "tipo": "video",
-  "legenda": "Aceitar mais encomenda do que o forno aguenta gera atraso e cliente chateado. Defina um limite por dia, feche a agenda e ofereça outra data.\n\nNo SeparaGo o pedido chega organizado, para você enxergar o dia antes de aceitar mais. Link na bio para ver como funciona.\n\n@separa.go",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/c07-limite-dia.mp4",
+  "legenda": "Cardápio mandado em foto, um por um, vira conversa sem fim. Escreva o que vem em cada combo, deixe fácil de abrir e mantenha preço e foto atualizados.\n\nNo SeparaGo o cliente vê o cardápio e faz o pedido sozinho. Link na bio para ver como funciona.\n\n@separa.go",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/l07-cardapio-zap.mp4",
   "status": "pendente"
  },
  {
@@ -857,15 +866,6 @@
    "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n18/5.jpg",
    "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n18/6.jpg"
   ],
-  "status": "pendente"
- },
- {
-  "id": "l07-cardapio-zap",
-  "data": "2026-11-26",
-  "hora": "19:30",
-  "tipo": "video",
-  "legenda": "Cardápio mandado em foto, um por um, vira conversa sem fim. Escreva o que vem em cada combo, deixe fácil de abrir e mantenha preço e foto atualizados.\n\nNo SeparaGo o cliente vê o cardápio e faz o pedido sozinho. Link na bio para ver como funciona.\n\n@separa.go",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/l07-cardapio-zap.mp4",
   "status": "pendente"
  },
  {
