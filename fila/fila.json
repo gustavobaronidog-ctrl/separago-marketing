@@ -394,7 +394,9 @@
   "tipo": "video",
   "legenda": "Encomenda sem sinal é só promessa. Peça sinal no Pix antes de começar, avise que ele garante a data e anote o valor que já entrou.\n\nNo SeparaGo o pedido chega organizado, com quantidade e data no mesmo lugar. Link na bio para ver como funciona.\n\n@separa.go",
   "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/classico/c04-sinal.mp4",
-  "status": "pendente"
+  "status": "postado",
+  "post_id": "18154453993558088",
+  "postado_em": "2026-11-21T14:00:51.234806-03:00"
  },
  {
   "id": "r-c47-cyber",
