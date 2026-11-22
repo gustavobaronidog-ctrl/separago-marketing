@@ -530,6 +530,33 @@
   "postado_em": "2026-11-22T15:06:31.564876-03:00"
  },
  {
+  "id": "n53-black-friday-mercado",
+  "data": "2026-12-23",
+  "hora": "18:30",
+  "tipo": "carrossel",
+  "legenda": "Black Friday também é do mercado de bairro. 🔥\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #lanchonete #pizzaria #delivery",
+  "imagens": [
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n53/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n53/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n53/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n53/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n53/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n53/6.jpg"
+  ],
+  "status": "pulado",
+  "motivo": "Black Friday ja passou (27/11/2026)"
+ },
+ {
+  "id": "r-n53-black-friday-mercado",
+  "data": "2026-12-30",
+  "hora": "20:30",
+  "tipo": "reel",
+  "legenda": "Black Friday também é do mercado de bairro. 🔥\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #lanchonete #pizzaria #delivery",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n53/reel.mp4",
+  "status": "pulado",
+  "motivo": "Black Friday ja passou (27/11/2026)"
+ },
+ {
   "id": "n09-sem-estoque-vitrine",
   "data": "2026-11-22",
   "hora": "18:30",
@@ -1318,18 +1345,18 @@
   "status": "pendente"
  },
  {
-  "id": "n30-conferencia-dupla",
+  "id": "nm01-natal-ceia-quilo",
   "data": "2026-12-02",
   "hora": "12:30",
   "tipo": "carrossel",
-  "legenda": "Quem confere o pedido duas vezes erra menos. ✅\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #varejo #donodemercado #gestao",
+  "legenda": "Ceia de Natal é pedido grande, cheio de item por quilo. Com o pedido montado pelo cliente, nada se perde no WhatsApp.\n\nSalve e organize antes da correria. Teste o SeparaGo grátis, link na bio.",
   "imagens": [
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n30/1.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n30/2.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n30/3.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n30/4.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n30/5.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n30/6.jpg"
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm01/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm01/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm01/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm01/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm01/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm01/6.jpg"
   ],
   "status": "pendente"
  },
@@ -1859,12 +1886,12 @@
   "status": "pendente"
  },
  {
-  "id": "r-n63-horario-equipe",
+  "id": "r-nm01-natal-ceia-quilo",
   "data": "2026-12-09",
   "hora": "15:00",
   "tipo": "reel",
-  "legenda": "Escala errada gera hora extra e cliente esperando. ⏰\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #mercadinho #empreendedorismo #vendas",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n63/reel.mp4",
+  "legenda": "Ceia de Natal é pedido grande, cheio de item por quilo. Com o pedido montado pelo cliente, nada se perde no WhatsApp.\n\nSalve e organize antes da correria. Teste o SeparaGo grátis, link na bio.",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm01/reel.mp4",
   "status": "pendente"
  },
  {
@@ -2210,12 +2237,12 @@
   "status": "pendente"
  },
  {
-  "id": "r-n28-fiado-controle",
+  "id": "r-nm02-natal-vitrine-esgotou",
   "data": "2026-12-14",
   "hora": "10:30",
   "tipo": "reel",
-  "legenda": "Fiado sem controle vira buraco no caixa. 🕳️\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #mercado #supermercado #comerciolocal",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n28/reel.mp4",
+  "legenda": "Na semana do Natal o estoque muda de hora em hora. Vitrine certa evita pedido de produto que acabou.\n\nSalve para a semana das festas. Teste o SeparaGo grátis, link na bio.",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm02/reel.mp4",
   "status": "pendente"
  },
  {
@@ -2394,18 +2421,18 @@
   "status": "pendente"
  },
  {
-  "id": "c52-natal-vespera",
+  "id": "c34-hamburgueria-fidelidade",
   "data": "2026-12-16",
   "hora": "18:30",
   "tipo": "carrossel",
-  "legenda": "Entrega pontual na véspera fideliza o cliente por muito tempo.\n\nFeliz Natal! Teste o SeparaGo grátis, link na bio.\n\n#separago #mercadinho #empreendedorismo #vendas",
+  "legenda": "O cliente do aplicativo é do aplicativo. Na loja própria, é seu.\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #lanchonete #pizzaria #delivery",
   "imagens": [
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c52/1.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c52/2.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c52/3.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c52/4.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c52/5.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c52/6.jpg"
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c34/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c34/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c34/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c34/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c34/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c34/6.jpg"
   ],
   "status": "pendente"
  },
@@ -2444,18 +2471,18 @@
   "status": "pendente"
  },
  {
-  "id": "n43-pedido-errado-lanche",
+  "id": "nm02-natal-vitrine-esgotou",
   "data": "2026-12-17",
   "hora": "12:30",
   "tipo": "carrossel",
-  "legenda": "Lanche errado custa o lanche e o cliente. 😬\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #mercadinho #empreendedorismo #vendas",
+  "legenda": "Na semana do Natal o estoque muda de hora em hora. Vitrine certa evita pedido de produto que acabou.\n\nSalve para a semana das festas. Teste o SeparaGo grátis, link na bio.",
   "imagens": [
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n43/1.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n43/2.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n43/3.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n43/4.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n43/5.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n43/6.jpg"
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm02/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm02/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm02/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm02/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm02/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm02/6.jpg"
   ],
   "status": "pendente"
  },
@@ -2594,18 +2621,18 @@
   "status": "pendente"
  },
  {
-  "id": "n46-cliente-pede-troca",
+  "id": "nm03-natal-fila-caixa",
   "data": "2026-12-19",
   "hora": "12:30",
   "tipo": "carrossel",
-  "legenda": "Cliente pede troca e você não sabe se pode. 🔄\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #varejo #donodemercado #gestao",
+  "legenda": "Fila no caixa em véspera de Natal faz cliente desistir. Pedido feito antes pelo celular alivia o balcão.\n\nSalve para a semana de Natal. Teste o SeparaGo grátis, link na bio.",
   "imagens": [
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n46/1.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n46/2.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n46/3.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n46/4.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n46/5.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n46/6.jpg"
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm03/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm03/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm03/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm03/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm03/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm03/6.jpg"
   ],
   "status": "pendente"
  },
@@ -2669,18 +2696,18 @@
   "status": "pendente"
  },
  {
-  "id": "n72-retirada-loja",
+  "id": "nm04-natal-entrega-trocada",
   "data": "2026-12-20",
   "hora": "12:30",
   "tipo": "carrossel",
-  "legenda": "Retirada na loja economiza entrega e atrai cliente. 🛍️\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #mercado #supermercado #comerciolocal",
+  "legenda": "Entrega trocada na véspera de Natal custa caro. Uma sacola por pedido e conferência na saída evitam o erro.\n\nSalve as dicas. Teste o SeparaGo grátis, link na bio.",
   "imagens": [
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n72/1.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n72/2.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n72/3.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n72/4.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n72/5.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n72/6.jpg"
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm04/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm04/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm04/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm04/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm04/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm04/6.jpg"
   ],
   "status": "pendente"
  },
@@ -2744,28 +2771,28 @@
   "status": "pendente"
  },
  {
-  "id": "n49-avaliacao-google",
+  "id": "c51-natal-semana",
   "data": "2026-12-21",
   "hora": "12:30",
   "tipo": "carrossel",
-  "legenda": "Seu mercado tem avaliação no Google? ⭐\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #lanchonete #pizzaria #delivery",
+  "legenda": "Em semana de Natal, conferência dupla evita o pedido que estraga a ceia.\n\nSalve e mostre pra equipe. Teste o SeparaGo grátis, link na bio.\n\n#separago #varejo #donodemercado #gestao",
   "imagens": [
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n49/1.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n49/2.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n49/3.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n49/4.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n49/5.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n49/6.jpg"
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c51/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c51/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c51/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c51/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c51/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c51/6.jpg"
   ],
   "status": "pendente"
  },
  {
-  "id": "r-c40-cesta-basica",
+  "id": "r-nm03-natal-fila-caixa",
   "data": "2026-12-21",
   "hora": "15:00",
   "tipo": "reel",
-  "legenda": "Cesta pronta é venda recorrente, sem esforço de negociação.\n\nSalve a ideia. Teste o SeparaGo grátis, link na bio.\n\n#separago #mercadinho #empreendedorismo #vendas",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c40/reel.mp4",
+  "legenda": "Fila no caixa em véspera de Natal faz cliente desistir. Pedido feito antes pelo celular alivia o balcão.\n\nSalve para a semana de Natal. Teste o SeparaGo grátis, link na bio.",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm03/reel.mp4",
   "status": "pendente"
  },
  {
@@ -2819,18 +2846,18 @@
   "status": "pendente"
  },
  {
-  "id": "c54-reveillon",
+  "id": "c40-cesta-basica",
   "data": "2026-12-22",
   "hora": "12:30",
   "tipo": "carrossel",
-  "legenda": "No Réveillon vence quem tem vitrine pronta e entrega no prazo.\n\nFeliz Ano Novo! Teste o SeparaGo grátis, link na bio.\n\n#separago #lanchonete #pizzaria #delivery",
+  "legenda": "Cesta pronta é venda recorrente, sem esforço de negociação.\n\nSalve a ideia. Teste o SeparaGo grátis, link na bio.\n\n#separago #mercadinho #empreendedorismo #vendas",
   "imagens": [
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c54/1.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c54/2.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c54/3.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c54/4.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c54/5.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c54/6.jpg"
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c40/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c40/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c40/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c40/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c40/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c40/6.jpg"
   ],
   "status": "pendente"
  },
@@ -2844,18 +2871,18 @@
   "status": "pendente"
  },
  {
-  "id": "n81-dono-comeca",
+  "id": "nm05-natal-pizzaria-vespera",
   "data": "2026-12-22",
   "hora": "18:30",
   "tipo": "carrossel",
-  "legenda": "Dono novo de mercado: comece por aqui. 🆕\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #lanchonete #pizzaria #delivery",
+  "legenda": "Véspera de Natal na pizzaria é o pico do ano. Pedido que chega organizado deixa a cozinha respirar.\n\nSalve para a semana das festas. Teste o SeparaGo grátis, link na bio.",
   "imagens": [
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n81/1.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n81/2.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n81/3.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n81/4.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n81/5.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n81/6.jpg"
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm05/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm05/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm05/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm05/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm05/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm05/6.jpg"
   ],
   "status": "pendente"
  },
@@ -2894,44 +2921,28 @@
   "status": "pendente"
  },
  {
-  "id": "c34-hamburgueria-fidelidade",
+  "id": "c52-natal-vespera",
   "data": "2026-12-23",
   "hora": "12:30",
   "tipo": "carrossel",
-  "legenda": "O cliente do aplicativo é do aplicativo. Na loja própria, é seu.\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #lanchonete #pizzaria #delivery",
+  "legenda": "Entrega pontual na véspera fideliza o cliente por muito tempo.\n\nFeliz Natal! Teste o SeparaGo grátis, link na bio.\n\n#separago #mercadinho #empreendedorismo #vendas",
   "imagens": [
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c34/1.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c34/2.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c34/3.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c34/4.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c34/5.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c34/6.jpg"
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c52/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c52/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c52/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c52/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c52/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c52/6.jpg"
   ],
   "status": "pendente"
  },
  {
-  "id": "r-n71-bairros-entrega",
+  "id": "r-nm04-natal-entrega-trocada",
   "data": "2026-12-23",
   "hora": "15:00",
   "tipo": "reel",
-  "legenda": "Em quais bairros você entrega? 🗺️\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #mercadinho #empreendedorismo #vendas",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n71/reel.mp4",
-  "status": "pendente"
- },
- {
-  "id": "n53-black-friday-mercado",
-  "data": "2026-12-23",
-  "hora": "18:30",
-  "tipo": "carrossel",
-  "legenda": "Black Friday também é do mercado de bairro. 🔥\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #lanchonete #pizzaria #delivery",
-  "imagens": [
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n53/1.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n53/2.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n53/3.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n53/4.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n53/5.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n53/6.jpg"
-  ],
+  "legenda": "Entrega trocada na véspera de Natal custa caro. Uma sacola por pedido e conferência na saída evitam o erro.\n\nSalve as dicas. Teste o SeparaGo grátis, link na bio.",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm04/reel.mp4",
   "status": "pendente"
  },
  {
@@ -2985,12 +2996,12 @@
   "status": "pendente"
  },
  {
-  "id": "r-n73-vitrine-celular",
+  "id": "r-nm05-natal-pizzaria-vespera",
   "data": "2026-12-24",
   "hora": "15:00",
   "tipo": "reel",
-  "legenda": "Seu cliente compra pelo celular, não pelo computador. 📱\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #lanchonete #pizzaria #delivery",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n73/reel.mp4",
+  "legenda": "Véspera de Natal na pizzaria é o pico do ano. Pedido que chega organizado deixa a cozinha respirar.\n\nSalve para a semana das festas. Teste o SeparaGo grátis, link na bio.",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm05/reel.mp4",
   "status": "pendente"
  },
  {
@@ -3119,18 +3130,18 @@
   "status": "pendente"
  },
  {
-  "id": "n59-lucro-vs-faturamento",
+  "id": "nm06-natal-pos-festa",
   "data": "2026-12-26",
   "hora": "12:30",
   "tipo": "carrossel",
-  "legenda": "Faturamento não é lucro. 💰\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #mercadinho #empreendedorismo #vendas",
+  "legenda": "Cliente do Natal pode virar cliente fiel, se você souber quem ele é. Cadastro próprio faz a diferença.\n\nSalve e use em janeiro. Teste o SeparaGo grátis, link na bio.",
   "imagens": [
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n59/1.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n59/2.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n59/3.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n59/4.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n59/5.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n59/6.jpg"
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm06/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm06/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm06/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm06/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm06/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm06/6.jpg"
   ],
   "status": "pendente"
  },
@@ -3194,18 +3205,18 @@
   "status": "pendente"
  },
  {
-  "id": "c51-natal-semana",
+  "id": "n49-avaliacao-google",
   "data": "2026-12-27",
   "hora": "12:30",
   "tipo": "carrossel",
-  "legenda": "Em semana de Natal, conferência dupla evita o pedido que estraga a ceia.\n\nSalve e mostre pra equipe. Teste o SeparaGo grátis, link na bio.\n\n#separago #varejo #donodemercado #gestao",
+  "legenda": "Seu mercado tem avaliação no Google? ⭐\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #lanchonete #pizzaria #delivery",
   "imagens": [
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c51/1.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c51/2.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c51/3.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c51/4.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c51/5.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c51/6.jpg"
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n49/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n49/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n49/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n49/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n49/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n49/6.jpg"
   ],
   "status": "pendente"
  },
@@ -3269,18 +3280,18 @@
   "status": "pendente"
  },
  {
-  "id": "c40-cesta-basica",
+  "id": "c54-reveillon",
   "data": "2026-12-28",
   "hora": "12:30",
   "tipo": "carrossel",
-  "legenda": "Cesta pronta é venda recorrente, sem esforço de negociação.\n\nSalve a ideia. Teste o SeparaGo grátis, link na bio.\n\n#separago #mercadinho #empreendedorismo #vendas",
+  "legenda": "No Réveillon vence quem tem vitrine pronta e entrega no prazo.\n\nFeliz Ano Novo! Teste o SeparaGo grátis, link na bio.\n\n#separago #lanchonete #pizzaria #delivery",
   "imagens": [
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c40/1.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c40/2.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c40/3.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c40/4.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c40/5.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c40/6.jpg"
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c54/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c54/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c54/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c54/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c54/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c54/6.jpg"
   ],
   "status": "pendente"
  },
@@ -3460,15 +3471,6 @@
   "status": "pendente"
  },
  {
-  "id": "r-n53-black-friday-mercado",
-  "data": "2026-12-30",
-  "hora": "20:30",
-  "tipo": "reel",
-  "legenda": "Black Friday também é do mercado de bairro. 🔥\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #lanchonete #pizzaria #delivery",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n53/reel.mp4",
-  "status": "pendente"
- },
- {
   "id": "c44-dono-numero",
   "data": "2026-12-31",
   "hora": "08:30",
@@ -3510,12 +3512,12 @@
   "status": "pendente"
  },
  {
-  "id": "r-n84-mensagem-zap",
+  "id": "r-nm06-natal-pos-festa",
   "data": "2026-12-31",
   "hora": "15:00",
   "tipo": "reel",
-  "legenda": "Mensagem de WhatsApp bem escrita vende. 💬\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #mercado #supermercado #comerciolocal",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n84/reel.mp4",
+  "legenda": "Cliente do Natal pode virar cliente fiel, se você souber quem ele é. Cadastro próprio faz a diferença.\n\nSalve e use em janeiro. Teste o SeparaGo grátis, link na bio.",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/nm06/reel.mp4",
   "status": "pendente"
  },
  {
@@ -3919,6 +3921,47 @@
   "status": "pendente"
  },
  {
+  "id": "n30-conferencia-dupla",
+  "data": "2027-01-10",
+  "hora": "08:30",
+  "tipo": "carrossel",
+  "legenda": "Quem confere o pedido duas vezes erra menos. ✅\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #varejo #donodemercado #gestao",
+  "imagens": [
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n30/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n30/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n30/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n30/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n30/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n30/6.jpg"
+  ],
+  "status": "pendente"
+ },
+ {
+  "id": "r-n63-horario-equipe",
+  "data": "2027-01-10",
+  "hora": "10:30",
+  "tipo": "reel",
+  "legenda": "Escala errada gera hora extra e cliente esperando. ⏰\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #mercadinho #empreendedorismo #vendas",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n63/reel.mp4",
+  "status": "pendente"
+ },
+ {
+  "id": "n43-pedido-errado-lanche",
+  "data": "2027-01-10",
+  "hora": "12:30",
+  "tipo": "carrossel",
+  "legenda": "Lanche errado custa o lanche e o cliente. 😬\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #mercadinho #empreendedorismo #vendas",
+  "imagens": [
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n43/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n43/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n43/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n43/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n43/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n43/6.jpg"
+  ],
+  "status": "pendente"
+ },
+ {
   "id": "c41-limpar-vitrine",
   "data": "2027-01-10",
   "hora": "12:30",
@@ -3935,12 +3978,121 @@
   "status": "pendente"
  },
  {
+  "id": "r-n28-fiado-controle",
+  "data": "2027-01-10",
+  "hora": "15:00",
+  "tipo": "reel",
+  "legenda": "Fiado sem controle vira buraco no caixa. 🕳️\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #mercado #supermercado #comerciolocal",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n28/reel.mp4",
+  "status": "pendente"
+ },
+ {
   "id": "r-c41-limpar-vitrine",
   "data": "2027-01-10",
   "hora": "15:00",
   "tipo": "reel",
   "legenda": "Vitrine limpa vende mais que vitrine lotada.\n\nSalve as dicas. Teste o SeparaGo grátis, link na bio.\n\n#separago #mercado #supermercado #comerciolocal",
   "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c41/reel.mp4",
+  "status": "pendente"
+ },
+ {
+  "id": "n46-cliente-pede-troca",
+  "data": "2027-01-10",
+  "hora": "18:30",
+  "tipo": "carrossel",
+  "legenda": "Cliente pede troca e você não sabe se pode. 🔄\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #varejo #donodemercado #gestao",
+  "imagens": [
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n46/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n46/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n46/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n46/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n46/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n46/6.jpg"
+  ],
+  "status": "pendente"
+ },
+ {
+  "id": "r-c40-cesta-basica",
+  "data": "2027-01-10",
+  "hora": "20:30",
+  "tipo": "reel",
+  "legenda": "Cesta pronta é venda recorrente, sem esforço de negociação.\n\nSalve a ideia. Teste o SeparaGo grátis, link na bio.\n\n#separago #mercadinho #empreendedorismo #vendas",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c40/reel.mp4",
+  "status": "pendente"
+ },
+ {
+  "id": "n72-retirada-loja",
+  "data": "2027-01-11",
+  "hora": "08:30",
+  "tipo": "carrossel",
+  "legenda": "Retirada na loja economiza entrega e atrai cliente. 🛍️\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #mercado #supermercado #comerciolocal",
+  "imagens": [
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n72/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n72/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n72/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n72/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n72/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n72/6.jpg"
+  ],
+  "status": "pendente"
+ },
+ {
+  "id": "r-n71-bairros-entrega",
+  "data": "2027-01-11",
+  "hora": "10:30",
+  "tipo": "reel",
+  "legenda": "Em quais bairros você entrega? 🗺️\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #mercadinho #empreendedorismo #vendas",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n71/reel.mp4",
+  "status": "pendente"
+ },
+ {
+  "id": "n81-dono-comeca",
+  "data": "2027-01-11",
+  "hora": "12:30",
+  "tipo": "carrossel",
+  "legenda": "Dono novo de mercado: comece por aqui. 🆕\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #lanchonete #pizzaria #delivery",
+  "imagens": [
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n81/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n81/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n81/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n81/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n81/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n81/6.jpg"
+  ],
+  "status": "pendente"
+ },
+ {
+  "id": "r-n73-vitrine-celular",
+  "data": "2027-01-11",
+  "hora": "15:00",
+  "tipo": "reel",
+  "legenda": "Seu cliente compra pelo celular, não pelo computador. 📱\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #lanchonete #pizzaria #delivery",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n73/reel.mp4",
+  "status": "pendente"
+ },
+ {
+  "id": "n59-lucro-vs-faturamento",
+  "data": "2027-01-11",
+  "hora": "18:30",
+  "tipo": "carrossel",
+  "legenda": "Faturamento não é lucro. 💰\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #mercadinho #empreendedorismo #vendas",
+  "imagens": [
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n59/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n59/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n59/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n59/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n59/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n59/6.jpg"
+  ],
+  "status": "pendente"
+ },
+ {
+  "id": "r-n84-mensagem-zap",
+  "data": "2027-01-11",
+  "hora": "20:30",
+  "tipo": "reel",
+  "legenda": "Mensagem de WhatsApp bem escrita vende. 💬\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #mercado #supermercado #comerciolocal",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n84/reel.mp4",
   "status": "pendente"
  }
 ]
