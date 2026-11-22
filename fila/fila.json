@@ -3962,37 +3962,12 @@
   "status": "pendente"
  },
  {
-  "id": "c41-limpar-vitrine",
-  "data": "2027-01-10",
-  "hora": "12:30",
-  "tipo": "carrossel",
-  "legenda": "Vitrine limpa vende mais que vitrine lotada.\n\nSalve as dicas. Teste o SeparaGo grátis, link na bio.\n\n#separago #mercado #supermercado #comerciolocal",
-  "imagens": [
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c41/1.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c41/2.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c41/3.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c41/4.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c41/5.jpg",
-   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c41/6.jpg"
-  ],
-  "status": "pendente"
- },
- {
   "id": "r-n28-fiado-controle",
   "data": "2027-01-10",
   "hora": "15:00",
   "tipo": "reel",
   "legenda": "Fiado sem controle vira buraco no caixa. 🕳️\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #mercado #supermercado #comerciolocal",
   "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n28/reel.mp4",
-  "status": "pendente"
- },
- {
-  "id": "r-c41-limpar-vitrine",
-  "data": "2027-01-10",
-  "hora": "15:00",
-  "tipo": "reel",
-  "legenda": "Vitrine limpa vende mais que vitrine lotada.\n\nSalve as dicas. Teste o SeparaGo grátis, link na bio.\n\n#separago #mercado #supermercado #comerciolocal",
-  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c41/reel.mp4",
   "status": "pendente"
  },
  {
@@ -4093,6 +4068,31 @@
   "tipo": "reel",
   "legenda": "Mensagem de WhatsApp bem escrita vende. 💬\n\nSalve e teste o SeparaGo grátis, link na bio.\n\n#separago #mercado #supermercado #comerciolocal",
   "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/n84/reel.mp4",
+  "status": "pendente"
+ },
+ {
+  "id": "c41-limpar-vitrine",
+  "data": "2027-01-12",
+  "hora": "12:30",
+  "tipo": "carrossel",
+  "legenda": "Vitrine limpa vende mais que vitrine lotada.\n\nSalve as dicas. Teste o SeparaGo grátis, link na bio.\n\n#separago #mercado #supermercado #comerciolocal",
+  "imagens": [
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c41/1.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c41/2.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c41/3.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c41/4.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c41/5.jpg",
+   "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c41/6.jpg"
+  ],
+  "status": "pendente"
+ },
+ {
+  "id": "r-c41-limpar-vitrine",
+  "data": "2027-01-12",
+  "hora": "15:00",
+  "tipo": "reel",
+  "legenda": "Vitrine limpa vende mais que vitrine lotada.\n\nSalve as dicas. Teste o SeparaGo grátis, link na bio.\n\n#separago #mercado #supermercado #comerciolocal",
+  "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/c41/reel.mp4",
   "status": "pendente"
  }
 ]
