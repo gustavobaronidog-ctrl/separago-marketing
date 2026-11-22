@@ -503,7 +503,9 @@
   "tipo": "video",
   "legenda": "Produto que acabou na hora de separar o pedido gera fila e reclamação. Confira o estoque antes, ofereça substituto com preço e só feche com o sim do cliente.\n\nNo SeparaGo o cliente já pede sabendo o que tem. Link na bio para ver como funciona.\n\n@separa.go",
   "video_url": "https://raw.githubusercontent.com/gustavobaronidog-ctrl/separago-marketing/main/midia/dinamicos/classico/m05-item-falta.mp4",
-  "status": "pendente"
+  "status": "postado",
+  "post_id": "18136460014682998",
+  "postado_em": "2026-11-22T14:03:51.613895-03:00"
  },
  {
   "id": "r-n16-compra-grande",
